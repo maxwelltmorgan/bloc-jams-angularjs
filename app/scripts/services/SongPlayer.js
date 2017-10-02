@@ -4,6 +4,14 @@
 
           var currentAlbum = Fixtures.getAlbum();
 
+          SongPlayer.volume = 80;
+
+          SongPlayer.setVolume = function (volume) {
+              if (currentBuzzObject) {
+                  currentBuzzObject.setVolume(volume);
+              }
+          };
+
           /**
           * @desc Buzz object audio file
           * @type {Object}
