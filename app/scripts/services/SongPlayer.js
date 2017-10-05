@@ -91,6 +91,23 @@
               song.playing = false;
           };
 
+          SongPlayer.isMuted = function(song) {
+              if(!currentBuzzObject) {
+                  return false;
+              }
+              return currentBuzzObject.isMuted();
+          };
+
+          SongPlayer.toggleMute = function(song) {
+              if(currentBuzzObject && currentBuzzObject.isMuted()){
+                  currentBuzzObject.toggleMute();
+                  SongPlayer.volume = currentBuzzObject.getVolume();
+              } else if(currentBuzzObject && !currentBuzzObject.isMuted()) {
+                  currentBuzzObject.toggleMute();
+                  SongPlayer.volume = 0;
+              }
+          };
+
           SongPlayer.previous = function() {
               var currentSongIndex = getSongIndex(SongPlayer.currentSong);
               currentSongIndex--;
