@@ -4,7 +4,7 @@
   "description": "Music player using Angular",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Bloc/Bloc-Jams-AngularJS-Starter"
+    "url": "https://github.com/maxwelltmorgan/max-jams-angularjs"
   },
   "main": "server.js",
   "scripts": {
