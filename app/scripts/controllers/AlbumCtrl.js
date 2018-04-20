@@ -5,6 +5,6 @@
      }
 
      angular
-         .module('blocJams')
+         .module('maxJams')
          .controller('AlbumCtrl', ['Fixtures', 'SongPlayer', AlbumCtrl]);
  })();

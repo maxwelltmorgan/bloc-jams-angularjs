@@ -77,6 +77,6 @@
      }
 
      angular
-         .module('blocJams')
+         .module('maxJams')
          .directive('seekBar', ['$document', seekBar]);
  })();

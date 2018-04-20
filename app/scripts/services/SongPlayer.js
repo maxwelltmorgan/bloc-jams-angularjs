@@ -149,6 +149,6 @@
      }
 
      angular
-         .module('blocJams')
+         .module('maxJams')
          .factory('SongPlayer', ['$rootScope', 'Fixtures', SongPlayer]);
  })();

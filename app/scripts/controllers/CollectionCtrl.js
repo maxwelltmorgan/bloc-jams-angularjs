@@ -4,6 +4,6 @@
      }
 
      angular
-         .module('blocJams')
+         .module('maxJams')
          .controller('CollectionCtrl', ['Fixtures', CollectionCtrl]);
  })();

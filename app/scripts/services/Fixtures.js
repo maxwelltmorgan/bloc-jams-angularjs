@@ -48,6 +48,6 @@
      }
 
      angular
-         .module('blocJams')
+         .module('maxJams')
          .factory('Fixtures', Fixtures);
  })();

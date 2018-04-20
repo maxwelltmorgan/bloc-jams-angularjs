@@ -25,6 +25,6 @@
      }
 
      angular
-         .module('blocJams')
+         .module('maxJams')
          .filter('timecode', timecode);
  })();

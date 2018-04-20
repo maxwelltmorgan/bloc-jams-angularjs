@@ -25,6 +25,6 @@
   }
 
   angular
-    .module('blocJams', ['ui.router'])
+    .module('maxJams', ['ui.router'])
     .config(config);
 })();

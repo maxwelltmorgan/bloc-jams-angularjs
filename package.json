@@ -1,16 +1,15 @@
 {
-  "name": "Bloc-Jams-AngularJS-Starter",
+  "name": "Max-Jams-Angular-Starter",
   "version": "0.0.4",
-  "description": "A starter project for Bloc's AngularJS-driven music player app",
+  "description": "Music player using Angular",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Bloc/Bloc-Jams-AngularJS-Starter"
   },
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
-  "author": "Bloc Inc",
+  "author": "Maxwell Morgan",
   "license": "ISC",
   "dependencies": {
     "hapi": "~16.4.0",
